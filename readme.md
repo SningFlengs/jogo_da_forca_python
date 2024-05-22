@@ -1,8 +1,6 @@
-# Relatório do Jogo da Forca em Python
-
 ## Resumo do Funcionamento
 
-O jogo da forca desenvolvido em Python é um jogo de adivinhação de palavras onde o jogador tenta adivinhar uma palavra secreta, letra por letra, ou a palavra completa. O jogador tem um número limitado de chances para errar antes de perder o jogo. O jogo possui um sistema de ranking que guarda o nickname dos jogadores e seus pontos, além de uma funcionalidade para adicionar novas palavras ao banco de dados do jogo.
+Este jogo foi desenvolvido em python, trata-se de um jogo da forca onde o jogador tenta adivinhar uma palavra sorteada do bando de dados, letra por letra, ou a palavra completa. O jogador tem um número limitado de chances para errar antes de perder o jogo. O jogo possui um sistema de ranking que guarda o nickname dos jogadores e seus pontos, além de uma funcionalidade para adicionar novas palavras ao banco de dados do jogo.
 
 ## Características Gerais
 
@@ -21,12 +19,13 @@ O jogo da forca desenvolvido em Python é um jogo de adivinhação de palavras o
    - O ranking dos jogadores é armazenado em um arquivo (`ranking.txt`).
    - Cada jogador pode ter seu nickname e pontuação salvos e atualizados após cada partida.
 
-4. **Jogabilidade**:
+4. **Funcionamento do jogo**:
    - O jogador deve adivinhar a palavra secreta chutando letras.
    - O jogador pode tentar adivinhar a palavra inteira a qualquer momento.
    - Cada letra correta é revelada na palavra, enquanto letras incorretas diminuem o número de chances restantes.
    - O jogo termina quando o jogador adivinha a palavra ou esgota suas chances.
 
+4. **Funcionamento do jogo**:
 ## Jogabilidade
 
 1. **Início do Jogo**:
@@ -44,10 +43,10 @@ O jogo da forca desenvolvido em Python é um jogo de adivinhação de palavras o
    - Se o jogador acerta a palavra, sua pontuação é incrementada e salva no ranking.
    - Se o jogador erra todas as chances, a palavra secreta é revelada.
 
-4. **Ranking**:
-   - O ranking exibe os top 5 jogadores com mais pontos.
+5. **Tratativa de erro**:
+   - O jogo possui uma tratativa de erro. Caso os arquivos, `palavras.txt` ou `ranking.txt` forem excluídos a qualquer momento, o jogo continuará funcionando.
 
-## Bibliotecas Usadas
+## Bibliotecas Utilizadas
 
 1. **`random`**:
    - Usada para sortear palavras aleatórias da lista de palavras.
@@ -58,7 +57,7 @@ O jogo da forca desenvolvido em Python é um jogo de adivinhação de palavras o
 3. **`time`**:
    - Usada para criar pequenos atrasos, melhorando a experiência do usuário com animações simples de loading.
 
-## Funções e Suas Funções
+## Funções e Suas utilidades
 
 1. **`styleprint(txt)`**:
    - Imprime texto formatado com bordas, usado para melhorar a visualização de títulos e mensagens importantes.
@@ -83,6 +82,3 @@ O jogo da forca desenvolvido em Python é um jogo de adivinhação de palavras o
 
 8. **`antierror_rank()`**:
    - Verifica a existência do arquivo de ranking e cria-o se não existir.
-
-Este relatório resume as funcionalidades e características principais do jogo da forca desenvolvido em Python, proporcionando uma visão clara de sua estrutura e jogabilidade.
-```
