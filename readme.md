@@ -1,4 +1,3 @@
-```markdown
 # Relatório do Jogo da Forca em Python
 
 ## Resumo do Funcionamento
