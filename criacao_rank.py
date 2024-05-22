@@ -12,7 +12,7 @@ criar()
 
 
 #pede nome do usuario
-nome = "italo"
+nome = "user"
 pontuacao = 0
 
 
@@ -24,9 +24,7 @@ with open("rank.txt", "r+") as ranklist:
     if len(cont_ranklist) == 0:
         ranklist.write(f"{nome} {pontuacao}")
 
-#partida encerra e o player ganhou(if ganhou)
-
-input("digita qlq coisa pro player ganhar")
+#partida encerra e o player ganhou
 
 pontuacao += 1
 
