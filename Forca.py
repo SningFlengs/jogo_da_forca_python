@@ -210,7 +210,7 @@ while True:
 #--------------------CRÉDITOS--------------------
     elif escolha == "3":
         print("\n\n\n")
-        styleprint(" CRIADOR: ÍTALO OLIVEIRA ")
+        styleprint(" CRIADORES: ÍTALO OLIVEIRA & PEDRO ASSUNÇÃO")
         loading()
 
 #--------------------CADASTRAR PALAVRAS--------------------      
