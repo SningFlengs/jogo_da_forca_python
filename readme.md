@@ -1,6 +1,6 @@
 ## Resumo do Funcionamento
 
-Este jogo foi desenvolvido em python, trata-se de um jogo da forca onde o jogador tenta adivinhar uma palavra sorteada do bando de dados, letra por letra, ou a palavra completa. O jogador tem um número limitado de chances para errar antes de perder o jogo. O jogo possui um sistema de ranking que guarda o nickname dos jogadores e seus pontos, além de uma funcionalidade para adicionar novas palavras ao banco de dados do jogo.
+Jogo da forca desenvolvido em python, o jogador tenta adivinhar uma palavra sorteada do banco de dados, letra por letra, ou a palavra completa. O jogador possui 7 chances para errar antes de perder o jogo. O jogo possui um sistema de ranking que guarda o nickname dos jogadores e seus pontos, além da possibilidade de adicionar novas palavras ao banco de dados do jogo.
 
 ## Características Gerais
 
@@ -17,10 +17,10 @@ Este jogo foi desenvolvido em python, trata-se de um jogo da forca onde o jogado
 
 3. **Sistema de Ranking**:
    - O ranking dos jogadores é armazenado em um arquivo (`ranking.txt`).
-   - Cada jogador pode ter seu nickname e pontuação salvos e atualizados após cada partida.
+   - Os jogadores têm suas pontuações salvas e atualizadas após cada partida se houver vitória..
 
 4. **Funcionamento do jogo**:
-   - O jogador deve adivinhar a palavra secreta chutando letras.
+   - O jogador deve adivinhar a palavra sorteada chutando letras.
    - O jogador pode tentar adivinhar a palavra inteira a qualquer momento.
    - Cada letra correta é revelada na palavra, enquanto letras incorretas diminuem o número de chances restantes.
    - O jogo termina quando o jogador adivinha a palavra ou esgota suas chances.
@@ -37,13 +37,12 @@ Este jogo foi desenvolvido em python, trata-se de um jogo da forca onde o jogado
 
 2. **Adivinhação**:
    - O jogador tem 7 chances para errar.
-   - Cada chute é verificado e se está correto ou não.
+   - Para cada chute, é verificado se está correto ou não..
    - O jogador pode tentar adivinhar a palavra inteira.
 
 3. **Termino do Jogo**:
-   - O jogo termina quando o jogador acerta a palavra ou esgota suas chances.
    - Se o jogador acerta a palavra, sua pontuação é incrementada e salva no ranking.
-   - Se o jogador erra todas as chances, a palavra secreta é revelada.
+   - Se o jogador perde todas as chances, a palavra sorteada é revelada.
 
 ## Bibliotecas Utilizadas
 
@@ -54,7 +53,7 @@ Este jogo foi desenvolvido em python, trata-se de um jogo da forca onde o jogado
    - Usada para manipulação de caminhos de arquivos e verificação de existência dos arquivos de palavras e ranking.
 
 3. **`time`**:
-   - Usada para criar pequenos atrasos, melhorando a experiência do usuário com animações simples de loading.
+   - Usada para criar pequenos atrasos, melhorando a aparência do jogo com animações simples de loading.
 
 ## Funções e Suas utilidades
 
