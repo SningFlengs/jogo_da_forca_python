@@ -32,7 +32,6 @@ def gerar_forca(palavra, chutes, chances):
         else:
             print("_", end=" ")
     print(f"Você tem {chances} chances restantes. \n")
-    print(palavra_forca)
 
 
 def loading():
@@ -58,7 +57,7 @@ def procurar_nickname(nickname_usuario, pontos_usuario):
             nick, pontos = linha.strip().split()
 
             if nick == nickname_usuario:    
-                nickname_usuario_encontrado = False
+                nickname_usuario_encontrado = True
                 pontos = int(pontos) + pontos_usuario
                 conteudo_lista_rank[i] = f"{nick} {pontos}\n"
                 
