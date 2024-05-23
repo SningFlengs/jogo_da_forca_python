@@ -25,7 +25,6 @@ Este jogo foi desenvolvido em python, trata-se de um jogo da forca onde o jogado
    - Cada letra correta é revelada na palavra, enquanto letras incorretas diminuem o número de chances restantes.
    - O jogo termina quando o jogador adivinha a palavra ou esgota suas chances.
 
-4. **Funcionamento do jogo**:
 ## Jogabilidade
 
 1. **Início do Jogo**:
