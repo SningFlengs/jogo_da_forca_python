@@ -25,6 +25,9 @@ Este jogo foi desenvolvido em python, trata-se de um jogo da forca onde o jogado
    - Cada letra correta é revelada na palavra, enquanto letras incorretas diminuem o número de chances restantes.
    - O jogo termina quando o jogador adivinha a palavra ou esgota suas chances.
 
+5. **Tratativa de erro**:
+   - O jogo possui uma tratativa de erro. Caso os arquivos, `palavras.txt` ou `ranking.txt` forem excluídos a qualquer momento, o jogo continuará funcionando.
+
 ## Jogabilidade
 
 1. **Início do Jogo**:
@@ -41,9 +44,6 @@ Este jogo foi desenvolvido em python, trata-se de um jogo da forca onde o jogado
    - O jogo termina quando o jogador acerta a palavra ou esgota suas chances.
    - Se o jogador acerta a palavra, sua pontuação é incrementada e salva no ranking.
    - Se o jogador erra todas as chances, a palavra secreta é revelada.
-
-4. **Tratativa de erro**:
-   - O jogo possui uma tratativa de erro. Caso os arquivos, `palavras.txt` ou `ranking.txt` forem excluídos a qualquer momento, o jogo continuará funcionando.
 
 ## Bibliotecas Utilizadas
 
