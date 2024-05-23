@@ -43,7 +43,7 @@ Este jogo foi desenvolvido em python, trata-se de um jogo da forca onde o jogado
    - Se o jogador acerta a palavra, sua pontuação é incrementada e salva no ranking.
    - Se o jogador erra todas as chances, a palavra secreta é revelada.
 
-5. **Tratativa de erro**:
+4. **Tratativa de erro**:
    - O jogo possui uma tratativa de erro. Caso os arquivos, `palavras.txt` ou `ranking.txt` forem excluídos a qualquer momento, o jogo continuará funcionando.
 
 ## Bibliotecas Utilizadas
